@@ -1,0 +1,27 @@
+body { min-height: 100vh; display: flex; flex-direction: column; }
+header{
+    height: 8vh;
+}
+main{
+    flex-grow: 1;
+    
+    
+} 
+footer{
+height: 8vh;
+}
+
+.background {
+    background-image: url(./background.jpg);
+    height: 80vh;
+    width: auto;
+}
+
+.imgShadow{
+    box-shadow: 0 0 10px 15px red;
+}
+
+.menuBg{
+    background-image: url(./startmenubg.jpg);
+    height: 50vh;
+}
